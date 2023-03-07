@@ -23,5 +23,18 @@ The goal of the project is to deploy a simple copy of the [AirBnB website](https
 -   [cmd module wiki page](https://wiki.python.org/moin/CmdModule)
 -   [python unittest](https://realpython.com/python-testing/)
 
+# The Console
+-   Create your data model
+-   Manage (create, update, destroy, etc) objects via a console / command interpreter
+-   Store and persist objects to a file (JSON file) The first piece is to manipulate a powerful storage system. This storage engine will give us an abstraction between “My object” and “How they are stored and persisted”. 
 
-```
+# Command Interpreter
+The command interpreter is a mini shell and allow us manage the objects of our project:
+
+-   Create a new object (ex: a new User or a new Place)
+-   Retrieve an object from a file, a database etc…
+-   Do operations on objects (count, compute stats, etc…)
+-   Update attributes of an object
+-   Destroy an object
+
+
