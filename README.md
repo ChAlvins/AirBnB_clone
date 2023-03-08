@@ -1,6 +1,13 @@
 ﻿# AirBnB_clone
 
-The goal of the project is to deploy a simple copy of the [AirBnB website](https://www.airbnb.com/).
+The goal of the project is to deploy a simple Clone of the [AirBnB website](https://www.airbnb.com/).
+
+<br> <br>
+
+![airbnb](https://user-images.githubusercontent.com/66512735/223627910-0a40a83f-8f39-4da2-8c46-bda29215768a.png)
+
+
+<br> <br>
 
 
 # Concepts
