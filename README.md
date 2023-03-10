@@ -294,5 +294,8 @@ git shortlog -se \
   | sed -e '/^CommitSyncScript.*$/d' \
   > AUTHORS
   ```
+  Samuel senerwa
+  Alvin Charo
+  ```
 
 
