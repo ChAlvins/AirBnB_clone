@@ -35,7 +35,7 @@ The goal of the project is to deploy a simple Clone of the [AirBnB website](http
 -   Manage (create, update, destroy, etc) objects via a console / command interpreter
 -   Store and persist objects to a file (JSON file) The first piece is to manipulate a powerful storage system. This storage engine will give us an abstraction between “My object” and “How they are stored and persisted”. 
 
-# Command Interpreter
+## 0x01 Command Interpreter
 The command interpreter is a mini shell and allow us manage the objects of our project:
 
 -   Create a new object (ex: a new User or a new Place)
@@ -62,7 +62,7 @@ All the development and testing was runned over an operating system Ubuntu 20.04
 ## 0x03 Installation
 
 ```bash
-git clone https://github.com/aysuarex/AirBnB_clone.git
+git clone https://github.com/vpnchengo/AirBnB_clone.git
 ```
 
 change to the `AirBnb` directory and run the command:
