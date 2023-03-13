@@ -1,5 +1,5 @@
-#!/usr/bin/python 3
-"""Describes the FileStorage class."""
+#!/usr/bin/python3
+"""Defines the FileStorage class."""
 import json
 from models.base_model import BaseModel
 from models.user import User
@@ -11,11 +11,10 @@ from models.review import Review
 
 
 class FileStorage:
-    """Represents an abstracted storage engine
-
-    Atributes:
-    __file_path (str): The name of the file to savve objects to
-    __objects (dict): A dictionary of instatiated objects.
+    """Represent an abstracted storage engine.
+    Attributes:
+        __file_path (str): The name of the file to save objects to.
+        __objects (dict): A dictionary of instantiated objects.
     """
     __file_path = "file.json"
     __objects = {}
@@ -25,23 +24,23 @@ class FileStorage:
         return FileStorage.__objects
 
     def new(self, obj):
-        """Set in objects to the JSON file with key <obj_class_name>.id"""
+        """Set in __objects obj with key <obj_class_name>.id"""
         ocname = obj.__class__.__name__
-        FileStorage.__objects["{}.{}".fomrat(ocname, obj.id)] = obj
+        FileStorage.__objects["{}.{}".format(ocname, obj.id)] = obj
 
     def save(self):
-        """Seriazable __objects to the HSON file _filepa_path."""
-        odict = FIleStorage.__objects
+        """Serialize __objects to the JSON file __file_path."""
+        odict = FileStorage.__objects
         objdict = {obj: odict[obj].to_dict() for obj in odict.keys()}
         with open(FileStorage.__file_path, "w") as f:
             json.dump(objdict, f)
 
     def reload(self):
-        """DEserialize the JSON file __file_path to __objects, if it exists."""
+        """Deserialize the JSON file __file_path to __objects, if it exists."""
         try:
             with open(FileStorage.__file_path) as f:
                 objdict = json.load(f)
-                for o in object.values():
+                for o in objdict.values():
                     cls_name = o["__class__"]
                     del o["__class__"]
                     self.new(eval(cls_name)(**o))
