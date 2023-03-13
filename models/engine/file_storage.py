@@ -7,6 +7,7 @@ from models.state import State
 from models.city import City
 from models.place import Place
 from models.amenity import Amenity
+from models.review import Review
 
 
 class FileStorage:
@@ -38,7 +39,7 @@ class FileStorage:
     def reload(self):
         """DEserialize the JSON file __file_path to __objects, if it exists."""
         try:
-            with open(FileStorage.file_path) as f:
+            with open(FileStorage.__file_path) as f:
                 objdict = json.load(f)
                 for o in object.values():
                     cls_name = o["__class__"}
