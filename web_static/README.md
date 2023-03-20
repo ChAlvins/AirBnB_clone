@@ -26,4 +26,3 @@ In this project, we learn how to manipulate HTML and CSS languages.
 -   [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
 -   [MDN](https://developer.mozilla.org/en-US/)
 -   [center boxes](https://css-tricks.com/centering-css-complete-guide/)
-
