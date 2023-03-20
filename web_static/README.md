@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# 0x01. AirBnB clone - Web static
-=======
 ﻿# AirBnB clone - Web static
 
 ![enter image description here](https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step1.png)
@@ -30,7 +27,3 @@ In this project, we will learn how to manipulate HTML and CSS languages.
 -   [MDN](https://developer.mozilla.org/en-US/)
 -   [center boxes](https://css-tricks.com/centering-css-complete-guide/)
 
-
-
-
->>>>>>> e6de27b4363eb1603a3fbe3867e1404ddd9fd953
