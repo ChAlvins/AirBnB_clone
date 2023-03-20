@@ -13,7 +13,7 @@ The first step is to “design” / “sketch” / “prototype” each element:
 -   No Javascript
 -   No data loaded from anything
 
-In this project, we will learn how to manipulate HTML and CSS languages. 
+In this project, we learn how to manipulate HTML and CSS languages. 
 ## Resources
 
 **Read or watch**:
